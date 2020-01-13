@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>3D Perspective Slider | Webdevtrick.com</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="slider" id="slider" style="--img-prev:url(https://webdevtrick.com/wp-content/uploads/programming.jpg);"> 
+  <div class="contents" id="slider-content">
+    <div class="imageLIST">
+      <div class="imageITEM imageITEM--active" data-id="1"><img src="https://webdevtrick.com/wp-content/uploads/programming.jpg"/></div>
+      <div class="imageITEM" data-id="2"><img src="https://webdevtrick.com/wp-content/uploads/gadget.jpg"/></div>
+      <div class="imageITEM" data-id="3"><img src="https://webdevtrick.com/wp-content/uploads/design.jpg"/></div>
+      <div class="imageITEM" data-id="4"><img src="https://webdevtrick.com/wp-content/uploads/cons.jpg"/></div>
+      <div class="imageITEM" data-id="5"><img src="https://webdevtrick.com/wp-content/uploads/auto.jpg"/></div>
+    </div>
+    <div class="slider__text">
+      <div class="textITEMS textITEMS--active" data-id="1">
+        <div class="headings">
+          <h3>Coding</h3>
+        </div>
+        <div class="txtINFO">
+          <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
+        </div>
+      </div>
+      <div class="textITEMS" data-id="2">
+        <div class="headings">
+          <h3>Drone</h3>
+        </div>
+        <div class="txtINFO">
+          <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
+        </div>
+      </div>
+      <div class="textITEMS" data-id="3">
+        <div class="headings">
+          <h3>Design</h3>
+        </div>
+        <div class="txtINFO">
+          <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
+        </div>
+      </div>
+      <div class="textITEMS" data-id="4">
+        <div class="headings">
+          <h3>Buildings</h3>
+        </div>
+        <div class="txtINFO">
+          <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
+        </div>
+      </div>
+      <div class="textITEMS" data-id="5">
+        <div class="headings">
+          <h3>AutoM</h3>
+        </div>
+        <div class="txtINFO">
+          <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navigations">
+    <div class="navARROWS">
+      <div class="navARROW navARROW--left" id="left">to left</div>
+      <div class="navARROW navARROW--right" id="right">to right</div>
+    </div>
+    <div class="bottomDOTS" id="slider-dots">
+      <div class="bottomDOT bottomDOT--active" data-id="1"></div>
+      <div class="bottomDOT" data-id="2"></div>
+      <div class="bottomDOT" data-id="3"></div>
+      <div class="bottomDOT" data-id="4"></div>
+      <div class="bottomDOT" data-id="5"></div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
